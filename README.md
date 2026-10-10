@@ -78,19 +78,6 @@ curl -X POST http://localhost:8080/api/chat \
 The service embeds the question, retrieves up to three relevant chunks, and sends those chunks to Gemini to generate an answer.
 <img width="1372" height="683" alt="Screenshot 2026-10-10 184004" src="https://github.com/user-attachments/assets/4920cd1f-0621-4d0b-9291-5d72af7a6a29" />
 
-## Tests
-
-Windows:
-
-```powershell
-.\mvnw.cmd test
-```
-
-macOS/Linux:
-
-```bash
-./mvnw test
-```
 
 ## Notes
 
