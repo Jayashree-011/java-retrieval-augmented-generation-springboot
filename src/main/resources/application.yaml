@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: java-rag
+
+gemini:
+  api-key: ${GEMINI_API_KEY:}
+  embedding-model: gemini-embedding-001
+  chat-model: gemini-2.5-flash
