@@ -54,6 +54,7 @@ The server starts at `http://localhost:8080`.
 ### Upload a PDF
 
 Send a `multipart/form-data` request to `/api/documents`. The file field must be named `file`.
+<img width="1370" height="487" alt="Screenshot 2026-10-10 183841" src="https://github.com/user-attachments/assets/f6aa2e5e-87e0-4e94-b94a-48a8b2ec4eb0" />
 
 ```bash
 curl -X POST http://localhost:8080/api/documents \
@@ -75,6 +76,7 @@ curl -X POST http://localhost:8080/api/chat \
 ```
 
 The service embeds the question, retrieves up to three relevant chunks, and sends those chunks to Gemini to generate an answer.
+<img width="1372" height="683" alt="Screenshot 2026-10-10 184004" src="https://github.com/user-attachments/assets/4920cd1f-0621-4d0b-9291-5d72af7a6a29" />
 
 ## Tests
 
